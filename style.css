@@ -1,0 +1,31 @@
+body{
+  height: 300vh; 
+}
+
+main{
+  position : fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ne pas toucher aux éléments ci-dessus. On travail c'est ce qui permet d'avoir une page que l'on peut 
+"scroller" mais qui visuellement ne bouge pas. */
+
+.forme{
+width: 20px;
+position: absolute;
+mask-repeat: no-repeat;
+mask-size: contain;
+background-image: url(../img/rayure.webp);
+background-size: 100px auto;
+background-position: center;
+}
+
+
+.conteneur{
+  /* background-color: blue; */
+  height: 200px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

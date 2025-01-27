@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838.98 23.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <polyline class="cls-1" points=".07 6.72 15.41 4.5 27.21 6.72 43.52 4.5 68.13 4.5 79.41 4.5 97.45 4.5 114.52 4.5 148.83 5.61 157.42 2.72 176.74 6.72 190.05 4.72 220.42 6.72 276.16 6.72 316.29 6.72 349.98 2.72 379.41 2.72 405.18 2.72 436.74 4.72 480.74 .5 521.18 3.61 563.41 3.61 613.63 3.61 669.57 12.06 720.74 15.17 760.74 19.61 838.96 23.17"/>
+  </g>
+</svg>

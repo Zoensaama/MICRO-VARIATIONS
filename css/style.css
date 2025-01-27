@@ -1,0 +1,296 @@
+body{
+  height: 300vh; 
+  background-color: white;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(173,44,20,1) 50%, rgba(255,255,255,1) 50%);
+}
+
+main{
+  position : fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.lescourbes{
+  display: flex;                  /* Utilisation de flexbox pour la disposition */
+  flex-wrap: wrap;                 /* Permet aux éléments de passer à la ligne suivante quand il n'y a plus de place */
+  justify-content: space-evenly;
+}
+
+
+.forme{
+width: 20px;
+position : absolute;
+mask-repeat: no-repeat;
+mask-size: contain;
+background-color: blue;
+background-image: url(../1x/Fichier_179.svg);
+background-size: 100px auto;
+background-position: center;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Ombre portée */
+}
+
+.conteneur{
+height: 200px;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#ligne1{
+  position : absolute;
+/*  width: 2569px;
+  height: 37px;*/
+  left: 0px;
+  top: 1326px;
+  background-color: #db6934;
+}
+
+#ligne2{
+  position: absolute;
+  left: -5px;
+  top: 1229px;
+ /* width: 2565px;
+  height: 36px;*/
+  border-radius: 0px;
+}
+
+#ligne3{
+  position: absolute;
+  left: -9px;
+  top: 1326px;
+ /* width: 2569px;
+  height: 37px;*/
+  border-radius: 0px;
+}
+
+#ligne4{
+  position: absolute;
+  left: -12px;
+  top: 874px;
+  /*width: 2587px;
+  height: 83px;*/
+  border-radius: 0px;
+}
+
+#ligne5{
+  position: absolute;
+  left: -125px;
+  top: 969px;
+  /*width: 2689px;
+  height: 122px;*/
+  border-radius: 0px;
+}
+
+#ligne6{
+  position: absolute;
+  left: -14px;
+  top: 926px;
+  /*width: 2572px;
+  height: 92px;*/
+  border-radius: 0px;
+}
+
+#ligne7{
+  position: absolute;
+  left: -3px;
+  top: 1039px;
+  /*width: 2568px;
+  height: 76px;*/
+  border-radius: 0px;
+}
+
+#ligne8{
+  position: absolute;
+  left: -14px;
+  top: 1151px;
+  /*width: 2578px;
+  height: 68px;*/
+  border-radius: 0px;
+}
+
+#ligne9{
+  position: absolute;
+  left: -64px;
+  top: 1253px;
+  /*width: 2639px;
+  height: 66px;*/
+  border-radius: 0px;
+}
+
+#courbe1{
+  position: absolute;
+  left: 560px;
+  top: 387px;
+  /*width: 835px;
+  height: 109px;*/
+  border-radius: 0px;
+}
+
+#courbe2{
+  position: absolute;
+  left: 500px;
+  top: 316.4px;
+  /*width: 1149px;
+  height: 252px;*/
+  transform: matrix(1.00, -0.00, 0.00, 1.00, -0.00, -0.00);
+  border-radius: 0px;
+}
+
+#courbe3{
+  position: absolute;
+  left: 400px;
+  top: 272px;
+  /*width: 1389px;
+  height: 174px;*/
+  border-radius: 0px;
+  margin: auto;
+}
+
+#courbe4{
+  position: absolute;
+  left: 280.6px;
+  top: 230.8px;
+  /*width: 1508px;
+  height: 293px;*/
+  transform: matrix(1.00, -0.03, 0.03, 1.00, 0.00, 0.00);
+  border-radius: 0px;
+}
+
+#courbe5{
+position: absolute;
+left: 150px;
+top: 250px;
+/*width: 1937px;
+height: 331px;*/
+transform: matrix(1.00, 0.02, -0.02, 1.00, 0.00, 0.00);
+border-radius: 0px;
+}
+
+#courbe6{
+  position: absolute;
+  left: 80px;
+  top: 180px;
+  /*width: 2304px;
+  height: 350px;*/
+  transform: matrix(1.00, 0.05, -0.05, 1.00, -0.00, -0.00);
+  border-radius: 0px;
+}
+
+#courbe7{
+  position: absolute;
+  left: 0;
+  top: 100px;
+  /*width: 2467px;
+  height: 426px;*/
+  border-radius: 0px;
+}
+
+#courbe8{
+  position: absolute;
+  left: -71px;
+  top: 40px;
+  /*width: 2717px;
+  height: 567px;*/
+  border-radius: 0px;
+}
+
+#courbe9{
+  position: absolute;
+  left: -304.97px;
+  top: -80px;
+  /*width: 3337px;
+  height: 764px;*/
+  transform: rotate(0deg);
+  border-radius: 0px;
+}
+
+#courbe10{
+  position: absolute;
+  left: -195.51px;
+  top: 326.65px;
+  /*width: 3340px;
+  height: 836px;*/
+  transform: matrix(1.00, -0.03, 0.03, 1.00, -0.00, 0.00);
+  border-radius: 0px;
+}
+
+.lesreliques{
+  height: 200px;
+  position: relative;
+  top: 45%;
+  left: 22%;
+}
+
+#relique1{
+  position: relative;
+  width: 200px;         /* Largeur du cercle */
+  height: 200px;        /* Hauteur du cercle */
+  background-color: white;  /* Couleur de fond (bleu dans cet exemple) */
+  border-radius: 50%;   /* Cela rend l'élément circulaire */
+  bottom: 15%;
+}
+
+#relique2{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  top: 10%;
+  background-color: white;  /* Couleur de fond (bleu dans cet exemple) */
+  border-radius: 50%;   /* Cela rend l'élément circulaire */
+  bottom: 15%;
+}
+
+#relique3{
+  height: 200px;
+  width: 200px;
+  top: 10%;
+  background-color: white;  /* Couleur de fond (bleu dans cet exemple) */
+  border-radius: 50%;   /* Cela rend l'élément circulaire */
+  bottom: 15%;
+
+}
+
+#relique4{
+  position: relative;
+  height: 200px;
+  width: 260px;
+  bottom: 25%;
+  top: 10%;
+  background-color: white;  /* Couleur de fond (bleu dans cet exemple) */
+  border-radius: 50%;   /* Cela rend l'élément circulaire */
+}
+
+#relique5{
+  height: 200px;
+  width: 200px;
+  top: 10%;
+  background-color: white;  /* Couleur de fond (bleu dans cet exemple) */
+  border-radius: 50%;   /* Cela rend l'élément circulaire */
+  bottom: 15%;
+
+}
+
+#relique6{
+  height: 200px;
+  width: 250px;
+  top: 10%;
+  background-color: white;  /* Couleur de fond (bleu dans cet exemple) */
+  border-radius: 50%;   /* Cela rend l'élément circulaire */
+  bottom: 15%;
+}
+
+#relique7{
+  position: relative;
+  height: 200px;
+  width: 220px;
+  bottom: 25%;
+  top: 10%;
+  background-color: white;  /* Couleur de fond (bleu dans cet exemple) */
+  border-radius: 50%;   /* Cela rend l'élément circulaire */
+}
+
+
+
+/* ne pas toucher aux éléments ci-dessus. On travail c'est ce qui permet d'avoir une page que l'on peut 
+"scroller" mais qui visuellement ne bouge pas. */
